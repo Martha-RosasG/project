@@ -1,0 +1,22 @@
+@startuml
+
+
+class Gauss_Seildel{ //Clase
+     
+    //Atributos
+
+    -n:int
+    -i:int
+    -j:int
+    -k:int
+    -flag:int
+    -count:int
+
+    //Metodos
+
+    +fix();
+    +matriz();
+    
+}
+
+@enduml
