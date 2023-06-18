@@ -1,9 +1,7 @@
-@startuml
+@startuml Gauss_Seidel 
 
 
-class Gauss_Seildel{ //Clase
-     
-    //Atributos
+class Gauss_Seildel{ 
 
     -n:int
     -i:int
@@ -11,8 +9,6 @@ class Gauss_Seildel{ //Clase
     -k:int
     -flag:int
     -count:int
-
-    //Metodos
 
     +fix();
     +matriz();
